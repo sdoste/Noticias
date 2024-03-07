@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.header a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #afd6fa;
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    margin-top: 0px;
+    border-radius: 1dvh;
+
+}
+
+#headers {
+    margin: 0px 100px 0px 100px;
+}
+
+.subHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #5ba3e7;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    margin-top: 0px;
+    border-radius: 1px;
+}
+  .subHeader h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.subHeader a{
+        text-decoration: none;
+        color: inherit;
+}
+
+.imagen{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    flex-shrink: 0
+}
+
+#nacional1{
+    background-image: url(/images/educacion.jpeg);
+}
+#nacional2{
+    background-image: url(/images/salud.webp);
+}
+#internacional1{
+    background-image: url(/images/internacional1.jpg);
+}
+#internacional2{
+    background-image: url(/images/internacional2.webp);
+}
+#politica1{
+    background-image: url(/images/politica1.jpg);
+}
+#politica2{
+    background-image: url(/images/politica2.jpg);
+}
+#cultura1{
+    background-image: url(/images/cultura1.jpg);
+}
+#cultura2{
+    background-image: url(/images/cultura2.jpg);
+}
+#deportes1{
+    background-image: url(/images/deportes1.webp);
+}
+#deportes2{
+    background-image: url(/images/deportes2.jpeg);
+}
+#musica1{
+    background-image: url(/images/musica1.jpg);
+}
+#musica2{
+    background-image: url(/images/musica2.jpg);
+}
+
+
+.noticia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 400px 10px 400px;
+}
+
+.textoNoticia p {
+    margin: 10px 10px 10px 30px;
+    line-height: 1.5;
+    column-count: 2;
+    text-indent: 1em;
+    letter-spacing: 1px;
+    
+}
+.title {
+    text-align: center;
+    background-color: rgb(148, 234, 245);
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #160075;
+    color: white;
+    padding: 10px 20px; /* Añade relleno para un mejor espaciado */
+    margin-top: auto; /* Empuja el pie de página hacia la parte inferior */
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px; /* Añade espacio entre los enlaces */
+}
